@@ -1,9 +1,9 @@
 # product-catalogue
 
-#GET
+# GET
 http://localhost:8080/api/getProducts
 
-#POST
+# POST
 http://localhost:8080/api/products
 body:
 {
@@ -14,7 +14,7 @@ body:
 }
 
 
-#PUT
+# PUT
 http://localhost:8080/api/products/1
 {
     "productName":"Airtel Xtrem",
