@@ -58,9 +58,6 @@ public class ProductServiceImpl implements ProductService {
 
             productCategoryDto.setFinalPrice(finalPrice);
 
-            //discount...
-            //chargees --> gst, delivery
-
 
             productCategoryDtoList.add(productCategoryDto);
         }
