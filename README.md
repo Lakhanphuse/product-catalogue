@@ -5,7 +5,9 @@ http://localhost:8080/api/getProducts
 
 # POST
 http://localhost:8080/api/products
+
 body:
+
 {
     "productName":"Videocon d2h",
     "productType":"Television",
@@ -16,6 +18,9 @@ body:
 
 # PUT
 http://localhost:8080/api/products/1
+
+body
+
 {
     "productName":"Airtel Xtrem",
     "productType":"Television",
@@ -26,4 +31,5 @@ http://localhost:8080/api/products/1
 
 
 #DELETE
+
 http://localhost:8080/api/products/1
